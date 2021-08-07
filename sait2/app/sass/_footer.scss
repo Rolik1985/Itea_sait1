@@ -1,0 +1,86 @@
+.footer {
+    background: #212121;
+    .footer-box {
+        display: flex;
+        justify-content: space-around;
+        height: 311px;
+        margin-top: 150px;
+        .logo-item{
+            display: flex;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        .logo {
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            &_text {
+                text-transform: uppercase;
+                margin-left: 20px;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 29px;
+                letter-spacing: 0.05em;
+                text-align: left;
+                color: white;
+            }
+            span {
+                color: white;
+                width: 200px;
+            }
+        }
+        .footer_link {
+            ul  {
+                li{
+                    list-style: none;
+                    a {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 22px;
+                        color: #CBCFD4;
+                        margin-bottom: 10px;
+                        text-decoration: none;
+                        &:hover {
+                            color: yellow;
+                        }
+                        .icon {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+            .caption {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 12px;
+                align-items: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+                margin-top: 80px;
+                list-style: none;
+            } 
+        }
+    }
+}
+.coperait {
+    display: flex;
+    justify-content: space-evenly;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212121;
+}
+@media (max-width: 776px) {
+    .footer_catalog {
+        display: none;
+    }
+    span {
+        display: none;
+    }
+}

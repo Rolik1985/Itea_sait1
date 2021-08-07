@@ -1,0 +1,20 @@
+.present {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    h2 {
+        padding: 0px 100px 0px 0px;
+    }
+    input {
+        width: 255px;
+        height: 40px;
+        margin-right: 35px;
+    }
+    .btn-email {
+        width: 185px;
+        height: 40px;
+        background: #D7B399;
+        color: blanchedalmond;
+    }
+}

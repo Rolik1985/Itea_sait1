@@ -1,0 +1,101 @@
+.slideshow-container {
+    max-width: 1100px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(17, 1, 1);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .prev {
+      left: -100px;
+  }
+  
+  .next {
+    right: -100px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(63, 9, 9, 0.8);
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-bottom: 70px;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @media (max-width: 1080px){
+    .prev {
+      left: 5px;
+      border-radius: 50px;
+    }
+    .next {
+      right: 5px;
+      border-radius: 50px;
+    }
+    .sale .info {
+      height: 224px;
+      margin-top: -140px;
+      display: flex;
+      flex-direction: column;
+      align-content: flex-end;
+      align-items: center;
+    }
+    .sale .tovar {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+    .sale .tovar_prais1 {
+      right: 30px;
+    }
+    .sale .tovar_prais2 {
+      right: 40px;
+    }
+  }
+
+  
+  

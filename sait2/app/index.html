@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-wrapper">
+            <div class="nav">
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                    <ul class="menu__box">
+                      <li><a class="menu__item" href="#">Главная</a></li>
+                            <li><a class="menu__item" href="#">Для мужчин</a></li>
+                            <li><a class="menu__item" href="#">Для женщин</a></li>
+                            <li><a class="menu__item" href="#">Для детей</a></li>
+                    </ul>
+                  </div>
+                <ul class="nav_menu">
+                    <li><a href="#">Для мужчин</a>
+                        <ul>
+                            <li><a href="#">Зимние</a></li>
+                            <li><a href="#">Летние</a></li>
+                            <li><a href="#">Спортивные</a></li>
+                            <li><a href="#">Брюки</a></li>
+                            <li><a href="#">Домашние</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Для женщин</a>
+                    </li>
+                    <li><a href="#">Для детей</a></li>
+                </ul>
+                <div class="logo">
+                    <a class="logo_logo" href="#"><img src="img/logo.png" width="40" height="40"></a>
+                    <p class="logo_text">the loop</p>
+                </div>
+                <div class="contact">
+                    <a class="contact_link" href="#">Оплата</a>
+                    <a class="contact_link" href="#">Доставка</a>
+                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2936 10.4909L16.2385 1.40831C15.9632 1.13308 15.5505 0.857849 15.1376 0.857849C14.7248 0.857849 14.3119 0.995464 14.0367 1.40831L7.98165 10.4909H1.37615C0.550459 10.4909 0 11.0413 0 11.867C0 12.0046 0 12.1423 0 12.2799L3.44037 25.078C3.7156 26.179 4.81651 27.1423 6.05505 27.1423H23.945C25.1835 27.1423 26.2844 26.3166 26.5596 25.078L30 12.2799C30 12.1423 30 12.0046 30 11.867C30 11.0413 29.4495 10.4909 28.6239 10.4909H22.2936ZM11.0092 10.4909L15.1376 4.43583L19.2661 10.4909H11.0092ZM15.1376 21.5001C13.6239 21.5001 12.3853 20.2615 12.3853 18.7478C12.3853 17.234 13.6239 15.9955 15.1376 15.9955C16.6514 15.9955 17.8899 17.234 17.8899 18.7478C17.8899 20.2615 16.6514 21.5001 15.1376 21.5001Z" fill="#212121"/>
+                         </svg>
+                        <span
+                        class="contact_text">5</span>
+                </div>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="sale">
+                        <div class="info">
+                            <h2>Зимняя распродажа</h2>
+                            <h1>СКИДКИ ДО 90%</h1>
+                            <button type="button" class="info_btn">СМОТРЕТЬ МОДЕЛИ</button>
+                        </div>
+                        <div class="tovar">
+                            <img src="img/shoes.png" width="556" height="377">
+                            <span class="tovar_prais1">9 900 </span>
+                            <span class="tovar_prais2">1 900 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="sale">
+                        <div class="info">
+                            <h2>Зимняя распродажа</h2>
+                            <h1>СКИДКИ ДО 93%</h1>
+                            <button type="button" class="info_btn">СМОТРЕТЬ МОДЕЛИ</button>
+                        </div>
+                        <div class="tovar">
+                            <img src="img/adidas-2.jpg" width="556" height="377">
+                            <span class="tovar_prais1">10 900 </span>
+                            <span class="tovar_prais2">1 900 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="sale">
+                        <div class="info">
+                            <h2>Зимняя распродажа</h2>
+                            <h1>СКИДКИ ДО 99%</h1>
+                            <button type="button" class="info_btn">СМОТРЕТЬ МОДЕЛИ</button>
+                        </div>
+                        <div class="tovar">
+                            <img src="img/Nike.jpg" width="556" height="377">
+                            <span class="tovar_prais1">8 900 </span>
+                            <span class="tovar_prais2">1 900 </span>
+                        </div>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                 </div>
+              <br>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </header>
+        <div class="info-tovar">
+            <h2>БЕСПЛАТНАЯ ДОСТАВКА ОТ 3000₽</h2>
+            <h3>Сделайте заказ и получите подарок</h3>
+        </div>
+    <div class="col header-wrapper">
+        <div class="col__men">
+            <div class="col__tex">
+                <div class="col__titel">МУЖСКАЯ КОЛЛЕКЦИЯ</div>
+                <div class="col__menu">Обувь, полуверы, костюмы</div>
+                <a class="col__link" href="#" ><img src="img/Arrow.svg"></a>
+            </div>
+            <div class="col__icon"><img src="img/Rectangle 3.png" width="190" height="171"></div>
+        </div>
+        <div class="col__women">
+            <div class="col__tex">
+                <div class="col__titel">ЖЕНСКАЯ КОЛЛЕКЦИЯ</div>
+                <div class="col__menu">Обувь, полуверы, костюмы</div>
+                <a class="col__link" href="#" ><img src="img/Arrow.svg"></a>
+            </div>
+            <div class="col__icon"><img src="img/Rectangle 3.1.png" width="190" height="171"></div>
+        </div> 
+    </div>
+    <div class="catalog header-wrapper">
+        <div class="catalog__item">
+            <span>Майка</span>
+            <div class="catalog__icon"><img src="img/Rectangle.png" width="277" height="236"></div>
+        </div>
+        <div class="catalog__item">
+            <span>Майка</span>
+            <div class="catalog__icon"><img src="img/Rectangle.png" width="277" height="236"></div>
+        </div>
+        <div class="catalog__item">
+            <span>Майка</span>
+            <div class="catalog__icon"><img src="img/Rectangle.png" width="277" height="236"></div>
+        </div>
+        <div class="catalog__item">
+            <span>Майка</span>
+            <div class="catalog__icon"><img src="img/Rectangle.png" width="277" height="236"></div>
+        </div>
+        <div class="catalog__item">
+            <span>Майка</span>
+            <div class="catalog__icon"><img src="img/Rectangle.png" width="277" height="236"></div>
+        </div>
+        <div class="catalog__item">
+            <span>Майка</span>
+            <div class="catalog__icon"><img src="img/Rectangle.png" width="277" height="236"></div>
+        </div>
+        <div class="catalog__item">
+            <span>Майка</span>
+            <div class="catalog__icon"><img src="img/Rectangle.png" width="277" height="236"></div>
+        </div>
+        <div class="catalog__item">
+            <span>Майка</span>
+            <div class="catalog__icon"><img src="img/Rectangle.png" width="277" height="236"></div>
+        </div>
+        <div class="catalog__item">
+            <span>Майка</span>
+            <div class="catalog__icon"><img src="img/Rectangle.png" width="277" height="236"></div>
+        </div>
+    </div>
+    <div class="new-item header-wrapper">
+        <h2>Новые модели</h2>
+        <div class="box-cards">
+            <div class="item-cards">
+                <div class="item-cards__icon"><img src="img/Rectangle 2.png" width="205" height="211"></div>
+                <div class="item-cards__tex">Коктейльное платье</div>
+                <span class="item-cards__prais">₽ 40 000</span>
+            </div>
+            <div class="item-cards">
+                <div class="item-cards__icon"><img src="img/Rectangle 2.png" width="205" height="211"></div>
+                <div class="item-cards__tex">Коктейльное платье</div>
+                <span class="item-cards__prais">₽ 40 000</span>
+            </div>
+            <div class="item-cards">
+                <div class="item-cards__icon"><img src="img/Rectangle 2.png" width="205" height="211"></div>
+                <div class="item-cards__tex">Коктейльное платье</div>
+                <span class="item-cards__prais">₽ 40 000</span>
+            </div>
+            <div class="item-cards">
+                <div class="item-cards__icon"><img src="img/Rectangle 2.png" width="205" height="211"></div>
+                <div class="item-cards__tex">Коктейльное платье</div>
+                <span class="item-cards__prais">₽ 40 000</span>
+            </div>
+        </div>
+        <a class="new-item_btn" href="#" >СМОТРЕТЬ МОДЕЛИ</a>
+    </div>
+    <div class="info-tovar present">
+        <h2>ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ</h2>
+        <input type="email" name="email" placeholder="E-mail" autocomplete="off">
+        <button type="submit" class="btn-email">ПОДПИСАТЬСЯ</button>
+    </div>
+    <div class="new-item header-wrapper">
+        <h2>СКИДКИ ДО 90%</h2>
+        <div class="box-cards">
+            <div class="item-cards">
+                <div class="item-cards__icon"><img src="img/Rectangle 2.png" width="205" height="211"></div>
+                <div class="item-cards__tex">Коктейльное платье</div>
+                <span class="item-cards__prais">₽ 40 000</span>
+            </div>
+            <div class="item-cards">
+                <div class="item-cards__icon"><img src="img/Rectangle 2.png" width="205" height="211"></div>
+                <div class="item-cards__tex">Коктейльное платье</div>
+                <span class="item-cards__prais">₽ 40 000</span>
+            </div>
+            <div class="item-cards">
+                <div class="item-cards__icon"><img src="img/Rectangle 2.png" width="205" height="211"></div>
+                <div class="item-cards__tex">Коктейльное платье</div>
+                <span class="item-cards__prais">₽ 40 000</span>
+            </div>
+            <div class="item-cards">
+                <div class="item-cards__icon"><img src="img/Rectangle 2.png" width="205" height="211"></div>
+                <div class="item-cards__tex">Коктейльное платье</div>
+                <span class="item-cards__prais">₽ 40 000</span>
+            </div>
+        </div>
+        <a class="new-item_btn" href="#" >СМОТРЕТЬ МОДЕЛИ</a>
+    </div>
+    <footer class="footer">
+        <div class="footer-box header-wrapper">
+            <div class="logo footer_logo">
+                <div class="logo-item">
+                    <a class="logo_logo" href="#"><img src="img/logo.png" width="40" height="40"></a>
+                    <p class="logo_text">the loop</p>
+                </div>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus egestas elit, at eleifend elit ornare u</span>
+            </div>
+            <div class="footer_link">
+                <ul>
+                    <li class="caption"><h3>Основные ссылки</h3></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Оплата</a></li>
+                </ul>
+            </div>
+            <div class="footer_catalog footer_link">
+                <ul>
+                    <li class="caption"><h3>Категории</h3></li>
+                    <li><a href="#">Мужская одежда</a></li>
+                    <li><a href="#">Женская одежда</a></li>
+                    <li><a href="#">Детская одежда</a></li>
+                    <li><a href="#">Для животных</a></li>
+                </ul>
+            </div>
+            <div class="footer_info footer_link">
+                <ul>
+                    <li class="caption"><h3>ПОЛЕЗНЫЕ ССЫЛКИ</h3></li>
+                    <li><a href="#">Таблица размеров</a></li>
+                    <li><a href="#">Блог о моде</a></li>
+                    <li><a href="#">Наша миссия</a></li>
+                </ul>
+            </div>
+            <div class="soceal footer_link">
+                <ul>
+                    <li class="caption"><h3>СОЦ СЕТИ</h3></li>
+                    <li><a href="#"><img class="icon" src ='img/.svg'> VK.com</a></li>
+                    <li><a href="#"><img class="icon" src ='img/.svg'>Facebook</a></li>
+                    <li><a href="#"><img class="icon" src ='img/.svg'>Instagram</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+        
+
+    </footer>
+    <div class="coperait">
+        <p>Copyright © 2019. Все права защищены</p>
+        <p>Политика приватности</p>
+    </div>
+
+
+<script src="js/slaid.js"></script>
+    
+</body>
+</html>
+

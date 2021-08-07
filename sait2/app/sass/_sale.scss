@@ -1,0 +1,81 @@
+.sale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .info {
+        height: 224px;
+        margin-top: -140px;
+        h2 {
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 37px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #000000;
+            margin-bottom: 35px;
+        }
+        h1 {
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 67px;
+            letter-spacing: 0.04em;
+            text-align: left;
+            color: #000000;
+            margin-bottom: 55px;
+        }
+        &_btn {
+            background: #D7B399;
+            border: transparent;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.03em;
+            text-align: left;
+            color: #ffff;
+            padding: 17px 30px 18px 29px;
+            &:hover {
+                color: darkslategrey;
+            }
+        }
+
+    }
+    .tovar {
+        position: relative;
+        height: 377px;
+        &_prais1 {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 29px;
+            letter-spacing: 0.05em;
+            text-align: right;
+            color: black;
+            position: absolute;
+            top: 2px;
+            right: 1px;
+            text-decoration: line-through;
+        }
+        &_prais2 {
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 51px;
+            letter-spacing: 0.02em;
+            text-align: right;
+            color: #D84033;
+            position: absolute;
+            top: 50px;
+            right: 20px;
+        }
+    }
+}
+@media (max-width: 1076px){
+    .sale {
+        display: flex;
+        flex-direction: column;
+    }
+}
